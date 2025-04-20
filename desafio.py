@@ -5,9 +5,9 @@ xp= int(input("Digite a quantidade de (XP) do heroi"))
 
 #NIVEL COM BASE NO XP
 
-if xp < 1000:
+if xp <= 1000:
     nivel = "Ferro"
-elif 1001 <= xp <= 2000:
+elif 1001 > xp <= 2000:
     nivel = "Bronze"
 elif 2001 <= xp <= 5000:
     nivel = "Prata"
